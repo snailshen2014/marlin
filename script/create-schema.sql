@@ -1,0 +1,1 @@
+CREATE SCHEMA `db_marlin` DEFAULT CHARACTER SET utf8 ;

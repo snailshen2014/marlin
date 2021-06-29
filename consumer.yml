@@ -1,0 +1,26 @@
+# dubbo client yaml configure file
+# client
+request_timeout : "3s"
+# connect timeout
+connect_timeout : "3s"
+
+# application config
+application:
+  organization : "shenyanjun.com"
+  name  : "ldapService"
+  module : "dubbogo ldap  client"
+  version : "0.0.1"
+  owner : "ZX"
+  environment : "test"
+
+registries :
+  "ceshizk":
+    protocol: "zookeeper"
+    timeout	: "3s"
+    address: "127.0.0.1:2181"
+    username: ""
+    password: ""
+
+references:
+  "LdapProvider":
+

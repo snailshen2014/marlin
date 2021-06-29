@@ -1,0 +1,6 @@
+[
+    {"cluster_name": "codis",
+        "zk_addr":"127.0.0.1:2181"},
+        {"cluster_name": "codis-demo",
+            "zk_addr":"127.0.0.1:2181"}
+]
